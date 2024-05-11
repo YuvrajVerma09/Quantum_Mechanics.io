@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: rgb(45, 45, 45);
+    display:block;
+  }
+  .dark-mode {
+    background-color: white;
+    color: black;
+  }
+  .title {
+    Text-align: center;
+    Font-size: 50px;
+    Font-family: didot;
+    color: White;
+    Padding: 20px;
+    margin-top: 20px;
+
+ 
+  }
+  .Header_lightmode {
+    Text-align: center;
+    Font-size: 50px;
+    Font-family: didot;
+    color: black;
+    Padding: 20px;
+    margin-top: 20px;
+
+ 
+  }
+  
+  H2 {
+    Text-align: center;
+    Font-size: 30px;
+    Font-family: didot;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  img {
+    border: 5px solid #555;
+  
+  }
+  h4{
+    color: black;
+    padding-left: 10px;
+  }
+  
+
+  img2 {
+    
+    width:100%;
+  }
+  .center1 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: auto;
+    width: 60%;
+  }
+  .center2 {
+   
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .center3 {
+   
+    margin-left: 20px;
+    margin-right: auto;
+  
+  }
+  .center4 {
+    margin-top: 100px;
+  }
+  .center5 {
+    width:560px;
+    height:315px
+  }
+  
+  .f{
+    margin-left: 1400px;
+  }
+  nav {
+    position: relative;
+    width: 1410px;
+    height: 50px;
+    background: #222;
+    border-radius: 100px;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .nav_lightmode {
+    position: relative;
+    width: 1410px;
+    height: 50px;
+    background: rgb(75, 75, 75);
+    border-radius: 100px;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+  }
+  nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+    z-index: 1;
+   
+  }
+  .color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: #222;
+    border-radius: 100px;
+    transition: .5s ease;
+  }
+  .span2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: rgb(75, 75, 75);
+    border-radius: 100px;
+    transition: .5s ease;
+  }
+  
+  nav a:nth-child(1):hover~span {
+    left: 935px;
+    width: 150px;
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+  }
+  nav a:nth-child(2):hover~span {
+    left: 1101px;
+    width: 100px;
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+  }
+  nav a:nth-child(3):hover~span {
+    left: 1203px;
+    width: 100px;
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+  }
+  nav a:nth-child(4):hover~span {
+    left: 1307px;
+    width: 100px;
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+  }
+  .images{
+    padding-top: 20px;
+  }
+  .images figure img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #555;
+    border-radius: 100px; 
+
+  }
+  .images figure figcaption{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+  }
+  .headerpage{
+    margin-left: 110px;
+    
+
+  }
+  .colourpage{
+    background: linear-gradient(90deg, rgb(45,45,45), #222,rgb(45,45,45)) ;
+  }
+  .colourpage_lightmode{
+    background: white;
+}
+  h1{
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#fff;
+    font-size: 25px;
+  }
+  .h1_lightmode{
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:black;
+    font-size: 25px;
+  }
+  .paragraph1{
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#fff;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .paragraph1_lightmode{
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#000;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .paragraph2{
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#fff;
+    font-size: 20px;
+  }
+  .paragraph2_lightmode{
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#000;
+    font-size: 20px;
+  }
+  .bodytext{
+    display: flex;
+    padding-left:110px;
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#fff;
+    font-size: 20px;
+    flex-wrap:wrap;
+    margin-right: 300px;
+}
+.bodytext_lightmode{
+    display: flex;
+    padding-left:110px;
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#000;
+    font-size: 20px;
+    flex-wrap:wrap;
+    margin-right: 300px;
+}
+.video{
+    display: flex;
+    padding-left:0px;
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#fff;
+    font-size: 10px;
+    flex-wrap:wrap;
+    margin-right: 300px;
+}
+.video_lightmode{
+    display: flex;
+    padding-left:0px;
+    font-family: "ff-meta-serif-web-pro",serif;
+    color:#000;
+    font-size: 10px;
+    flex-wrap:wrap;
+    margin-right: 300px;
+}
+.footer{
+    padding-top:60px;
+    color:white;
+    font-size:15px;
+    opacity: 60%;
+}
+.footer_lightmode{
+    padding-top:60px;
+    color:#000;
+    font-size:15px;
+    opacity: 60%;
+}
+  @keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 100%
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 100%
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes mask-effect {
+    0% {
+        -webkit-mask-position: 150%;
+        mask-position: 150%
+    }
+
+    to {
+        -webkit-mask-position: -50%;
+        mask-position: -50%
+    }
+}
+
+@font-face {
+    font-family: "secondary-sans-serif";
+    font-weight: 600;
+    src: local("Arial")
+}
+
+  
+  
+  
+  
+  .Card {
+    background-color: #f1f2f5;
+    border-radius: .25rem;
+    box-shadow: 0 1px 0 rgba(0,42,56,.1);
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    height: 100%;
+    justify-content: space-between;
+    overflow: inherit;
+    width: 100%
+  }
+  
+  .Card--SubscriberBenefits {
+    justify-content: flex-start
+  }
+  
+  .Card--Academy,.Card--Event {
+    background-color: #000
+  }
+  
+  .Card--Event,.Card--Subscriber-only {
+    gap: 0
+  }
+  
+  .Card--Hero,.Card--Medium,.Card--MediumSmall,.Card--Video {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between
+  }
+  
+  .Card--Hero .Card__Content,.Card--Medium .Card__Content,.Card--MediumSmall .Card__Content,.Card--Video .Card__Content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 2;
+    row-gap: .625rem
+  }
+  .Homepage__CardContainer{
+    padding-top: 30px;
+  }
+  .Card--Hero {
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+
+  }
+  
+  .Card--Hero .Card__Content {
+    flex-basis: 100%;
+    width: 100%
+  }
+  
+  
+  
+  @media (min-width: 1024px) {
+    .Card--Hero .Card__Content {
+        flex-basis:32%;
+        width: 32%
+    }
+  }
+  
+  .Card--Hero .Card__ImageWrapper {
+    aspect-ratio: 3/2;
+    flex: 1
+  }
+  
+  @media (min-width: 768px) {
+    .Card--Hero .Card__ImageWrapper {
+        order:2
+    }
+  
+    .Card--Video .Card__Content {
+        max-width: 15rem
+    }
+  
+    .Card--Video .Card__ImageWrapper {
+        flex-basis: 26.1875rem;
+        height: 100%;
+        max-width: 26.1875rem;
+        width: 26.1875rem
+    }
+  }
+  
+  .Card--MediumSmall {
+    gap: .625rem;
+    height: 100%;
+    width: 100%
+  }
+  
+  .Card--MediumSmall .Card__Content {
+    flex-basis: auto;
+    width: auto
+  }
+  
+  @media (min-width: 768px) {
+    .Card--MediumSmall .Card__Content {
+        flex-basis:50%;
+        width: 50%
+    }
+  }
+  
+  .Card--MediumSmall .Card__CopyWrapper,.Card--MediumSmall .Card__Information {
+    padding-left: 0
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .Card--MediumSmall .Card__ImageWrapper {
+        aspect-ratio:3/2;
+        border-radius: 0;
+        flex: 1;
+        height: auto;
+        min-width: auto;
+        padding: 0;
+        width: auto
+    }
+  }
+  
+  
+  .Card--Medium {
+    display: block
+  }
+  
+  
+  
+  
+  
+  
+  @media (min-width: 1024px) {
+    .Card--Tiny .Card__ImageWrapper {
+        display:none
+    }
+  }
+  
+  @media (min-width: 415px) and (max-width:767px) {
+    .Card--Tiny .Card__Content {
+        flex-direction:column
+    }
+  
+    .Card--Tiny .Card__ImageWrapper {
+        aspect-ratio: 3/2;
+        border-radius: 0;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%
+    }
+  }
+  
+  .Card--BasicSmall {
+    height: auto
+  }
+  
+  
+  
+  
+  
+  .Card__ImageWrapper {
+    aspect-ratio: 3/2;
+    overflow: hidden;
+    position: relative
+  }
+  
+  .Card__ImageWrapper img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+  }
+  
+  
+  
+  
+  
+  
+  .Card--Events {
+    background-color: #d04900
+  }
+  
+  html.Dark .Card--Events {
+    background-color: #ff7300
+  }
+  
+  .Card--Subscriber-only {
+    background-color: #000
+  }
+  
+  .Card__ImageOverflow {
+    height: 100%;
+    overflow: hidden;
+    width: 100%
+  }
+  
+  .Card--Newsletter .Card__CopyWrapper {
+    padding: 0
+  }
+  
+  
+  .Card__Title {
+    background-image: linear-gradient(#000,#000),linear-gradient(transparent,transparent),linear-gradient(#000,#000);
+    background-position: 0 100%,100% 100%,0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 1px,0 1px,0 1px;
+    color: rgb(82, 82, 82);
+    display: inline;
+    font-family: "ff-meta-serif-web-pro",serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    position: relative;
+    transition: background-size .3s cubic-bezier(0,0,.33,.93)
+  }
+  
+  html.Dark .Card__Title {
+    background-image: linear-gradient(#fff,#fff),linear-gradient(hsla(0,0%,100%,0),hsla(0,0%,100%,0)),linear-gradient(#fff,#fff);
+    color: #fff
+  }
+  
+  .CardLink:focus .Card__Title,.CardLink:hover .Card__Title {
+    background-image: linear-gradient(#000,#000),linear-gradient(transparent,transparent),linear-gradient(#000,#000);
+    background-size: 0 1px,0 1px,100% 1px
+  }
+  
+  html.Dark .CardLink:focus .Card__Title,html.Dark .CardLink:hover .Card__Title {
+    background-image: linear-gradient(#fff,#fff),linear-gradient(hsla(0,0%,100%,.2),hsla(0,0%,100%,.2)),linear-gradient(#fff,#fff);
+    background-size: 0 1px,0 1px,100% 1px
+  }
+  
+  
+  .Card--Crossword .Card__Title {
+    color: #fff
+  }
+ 
+  
+  .Card--Courses .Card__Title,.Card--Events .Card__Title,.Card--Subscriber-only .Card__Title,.CardLink:focus .Card--Subscriber-only .Card__Title,.CardLink:hover .Card--Subscriber-only .Card__Title {
+    color: #fff
+  }
+  
+  .CardLink--SubscriberBenefits .Card__Title {
+    background-position: 0 100%,100% 100%,0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 1px,0 1px,0 1px;
+    display: inline;
+    padding-bottom: 1px;
+    position: relative;
+    transition: background-size .3s cubic-bezier(0,0,.33,.93)
+  }
+  
+  .Card__Title2 {
+    background-image: linear-gradient(#000,#000),linear-gradient(transparent,transparent),linear-gradient(#000,#000);
+    background-position: 0 100%,100% 100%,0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 1px,0 1px,0 1px;
+    color: rgb(82, 82, 82);
+    display: inline;
+    font-family: "ff-meta-serif-web-pro",serif;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    position: relative;
+    transition: background-size .3s cubic-bezier(0,0,.33,.93)
+  }
+  
+  html.Dark .Card__Title2 {
+    background-image: linear-gradient(#fff,#fff),linear-gradient(hsla(0,0%,100%,0),hsla(0,0%,100%,0)),linear-gradient(#fff,#fff);
+    color: #fff
+  }
+  
+  .CardLink:focus .Card__Title2,.CardLink:hover .Card__Title2 {
+    background-image: linear-gradient(#000,#000),linear-gradient(transparent,transparent),linear-gradient(#000,#000);
+    background-size: 0 1px,0 1px,100% 1px
+  }
+  
+  html.Dark .CardLink:focus .Card__Title2,html.Dark .CardLink:hover .Card__Title2 {
+    background-image: linear-gradient(#fff,#fff),linear-gradient(hsla(0,0%,100%,.2),hsla(0,0%,100%,.2)),linear-gradient(#fff,#fff);
+    background-size: 0 1px,0 1px,100% 1px
+  }
+  
+  
+  .Card--Crossword .Card__Title2 {
+    color: #fff
+  }
+ 
+  
+  .Card--Courses .Card__Title2,.Card--Events .Card__Title2,.Card--Subscriber-only .Card__Title2,.CardLink:focus .Card--Subscriber-only .Card__Title2,.CardLink:hover .Card--Subscriber-only .Card__Title2 {
+    color: #fff
+  }
+  
+  .CardLink--SubscriberBenefits .Card__Title2 {
+    background-position: 0 100%,100% 100%,0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 1px,0 1px,0 1px;
+    display: inline;
+    padding-bottom: 1px;
+    position: relative;
+    transition: background-size .3s cubic-bezier(0,0,.33,.93)
+  }
+  
+  .Card__TeaserCopy {
+    color: #000;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 140%;
+    margin-bottom: 0;
+    margin-top: .625rem;
+    padding-left: 10px;
+  }
+  
+ 
+  
+  .Card__TeaserCopy--Truncate4 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    overflow: hidden
+  }
+  
+  
+  
+  .Card__Information {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .625rem .375rem
+  }
+  
+  .Card__SubjectType {
+    color: #000;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0;
+    padding-right: .625rem
+  }
+  
+  
+  .Card__TypeTotal {
+    align-items: center;
+    display: flex;
+    font-size: .75rem;
+    font-weight: 600;
+    margin-bottom: 0
+  }
+  
+  .Card__TypeTotalText {
+    color: #000;
+    line-height: 1.3
+  }
+  .flexy{
+
+    scale: 70%;
+  }
+
+  .position_large{
+    margin-left: 0%;
+    margin-bottom: 200px;
+  }
